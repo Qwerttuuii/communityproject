@@ -1,5 +1,5 @@
 import hero1 from "../../assets/images/hero/hero1.jpg";
-import hero2 from "../../assets/images/hero/hero2.jpeg";
+import hero2 from "../../assets/images/hero/hero2.jpg";
 import hero3 from "../../assets/images/hero/hero3.jpg";
 import hero4 from "../../assets/images/hero/hero4.jpg";
 import hero5 from "../../assets/images/hero/hero5.jpg";
