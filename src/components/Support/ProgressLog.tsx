@@ -35,7 +35,7 @@ const ProgressLog = () => {
 
         <div className="relative mt-12 sm:mt-14">
           {/* Connecting line */}
-          <div className="absolute left-[15px] top-2 bottom-2 w-px bg-gray-200 sm:left-[19px]" />
+          <div className="absolute left-3.75 top-2 bottom-2 w-px bg-gray-200 sm:left-4.75" />
 
           <div className="space-y-12 sm:space-y-14">
             {milestones.map((item) => {

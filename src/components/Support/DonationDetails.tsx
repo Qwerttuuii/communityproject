@@ -11,7 +11,7 @@ const DonationDetails = () => {
       setCopiedField(label);
       setTimeout(() => setCopiedField(null), 2000);
     } catch {
-      // Clipboard write failed silently; no fallback needed for this use case
+      
     }
   };
 
@@ -40,7 +40,7 @@ const DonationDetails = () => {
 
         {/* Donation card */}
 
-        <div className="mt-10 rounded-[28px] bg-gradient-to-br from-[#184F34] to-[#0F3322] p-6 sm:mt-12 sm:p-10">
+        <div className="mt-10 rounded-[28px] bg-linear-to-br from-[#184F34] to-[#0F3322] p-6 sm:mt-12 sm:p-10">
           <div className="flex flex-wrap items-start justify-between gap-3">
             <div>
               <p className="text-[11px] uppercase tracking-[3px] text-[#E8B12D] sm:text-xs sm:tracking-[4px]">
