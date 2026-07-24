@@ -14,7 +14,7 @@ export const bankDetails = {
     { label: "Bank Name", value: "Zenith Bank" },
     { label: "Account Number", value: "1311417459" },
     { label: "Account Name", value: "Umuchukwu Umuagu Project Account" },
-    { label: "Verifier", value: "WhatsAPP N0· xxxxxxx" },
+    { label: "Ref", value: "Hall + Code Name" },
   ],
   note: "Note: Bank details listed here are placeholders pending final confirmation by the Community Executive. The Umuchukwu Community Committee will never request payment to a personal account. Verify with the Financial Secretary before transferring large sums.",
 };

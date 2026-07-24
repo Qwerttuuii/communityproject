@@ -1,5 +1,5 @@
 export const blueprintData = {
-  subtitle: "Blueprint",
+  subtitle: "Projectlog",
   title: "Architectural highlights.",
   description:
     "What we're building, stage by stage designed by the appointed architects for long term use.",

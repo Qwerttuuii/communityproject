@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
 import SupportHero from "../components/Support/SupportHero";
+import Blueprint from "../components/Blueprint/Blueprint";
 
 import ArchitecturalHighlights from "../components/Support/ArchitecturalHighlights";
 
@@ -32,6 +33,8 @@ const Support = () => {
     <>
       <Navbar />
       <SupportHero />
+      <Blueprint/>
+      
       <ArchitecturalHighlights />
       
       <DonationDetails />

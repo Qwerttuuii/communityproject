@@ -37,7 +37,7 @@ const Objectives = () => {
         </h2>
         
 
-        <h2 className="mx-auto mt-28 max-w-3xl text-center text-6xl font-serif text-[#E8B12D]">
+        <h2 className="mx-auto mt-28 max-w-3xl text-center text-5xl font-serif text-[#E8B12D]">
           Core Objectives
         </h2>
 

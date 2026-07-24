@@ -10,7 +10,7 @@ const MapSection = () => {
     <section className="bg-[#FAF8F4] py-24">
       <div className="mx-auto max-w-7xl px-6">
 
-        <div className="mb-14 text-center">
+        <div className="mb-14 text-left">
 
           <p className="uppercase tracking-[5px] text-[#E8B12D]">
             Visit Us
@@ -20,8 +20,9 @@ const MapSection = () => {
             Find Our Community
           </h2>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
-            You're welcome to visit the proposed Civic Hall project site,
+          <p className=" mt-6 max-w-2xl text-left leading-8 text-gray-600 ">
+            You're welcome to visit the proposed The Umuchukwu
+Community Resource & Youth Development Center Project site,
             inspect the work in progress and meet members of the committee.
           </p>
 
