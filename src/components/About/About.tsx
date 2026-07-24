@@ -8,7 +8,7 @@ const About = () => {
     <section className="relative">
       {/* Background */}
 
-      <div className="relative py-28">
+      <div className="relative pb-16 pt-20 sm:pb-20 sm:pt-28">
         <div className="absolute inset-0 overflow-hidden">
           <img
             src={aboutBg}
@@ -23,37 +23,34 @@ const About = () => {
 
         {/* Content */}
 
-        <div className="relative mx-auto max-w-7xl px-6 pb-56">
+        <div className="relative mx-auto max-w-7xl px-5 sm:px-6">
           <div className="max-w-2xl">
-            <p className="uppercase tracking-[5px] text-[#E8B12D]">
+            <p className="text-sm uppercase tracking-[3px] text-[#E8B12D] sm:text-base sm:tracking-[5px]">
               {aboutData.subtitle}
             </p>
 
-            <h2 className="mt-4 font-serif text-5xl leading-tight text-white md:text-6xl">
+            <h2 className="mt-3 font-serif text-3xl leading-tight text-white sm:mt-4 sm:text-5xl md:text-6xl">
               {aboutData.title}
             </h2>
 
-            <p className="mt-8 leading-8 text-white/90">
+            <p className="mt-5 text-sm leading-7 text-white/90 sm:mt-8 sm:text-base sm:leading-8">
               {aboutData.description1}
             </p>
-
-
-          
-
-           
           </div>
-        </div>
-
-        {/* Floating Card */}
-
-        <div className="absolute bottom-0 left-1/2 z-10 w-full max-w-5xl -translate-x-1/2 translate-y-1/2 px-6">
-          <FundraisingCard />
         </div>
       </div>
 
-      {/* Space for overlap */}
+      {/* Floating Card — sits in normal flow, pulled up by a fixed
+          amount so it overlaps the section above regardless of how
+          tall the content or the card itself grows on any screen size */}
 
-      <div className="h-64 bg-[#FAF8F4]"></div>
+      <div className="relative z-10 mx-auto -mt-16 max-w-5xl px-5 sm:-mt-24 sm:px-6">
+        <FundraisingCard />
+      </div>
+
+      {/* Space below the card */}
+
+      <div className="h-16 bg-[#FAF8F4] sm:h-24"></div>
     </section>
   );
 };

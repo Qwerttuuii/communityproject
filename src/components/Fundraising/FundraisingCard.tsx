@@ -101,15 +101,15 @@ const FundraisingCard = () => {
   return (
     <div
       ref={cardRef}
-      className="rounded-[36px] bg-white p-8 shadow-[0_30px_70px_rgba(0,0,0,0.12)] md:p-12"
+      className="rounded-[24px] bg-white p-5 shadow-[0_30px_70px_rgba(0,0,0,0.12)] sm:rounded-[36px] sm:p-8 md:p-12"
     >
-      <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+      <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between lg:gap-8">
         <div>
-          <p className="text-sm uppercase tracking-[4px] text-[#E8B12D]">
+          <p className="text-xs uppercase tracking-[3px] text-[#E8B12D] sm:text-sm sm:tracking-[4px]">
             Fundraising Progress
           </p>
 
-          <h2 className="mt-3 text-3xl font-semibold text-[#184F34]">
+          <h2 className="mt-2 text-xl font-semibold text-[#184F34] sm:mt-3 sm:text-2xl md:text-3xl">
             Help Build Our Modern Community Resource And Youth Development center
           </h2>
         </div>
@@ -117,69 +117,71 @@ const FundraisingCard = () => {
         <div className="text-left lg:text-right">
           <span
             ref={percentageRef}
-            className="text-5xl font-bold text-[#184F34]"
+            className="text-3xl font-bold text-[#184F34] sm:text-4xl md:text-5xl"
           >
             0%
           </span>
 
-          <p className="mt-2 text-gray-500">of target achieved</p>
+          <p className="mt-1 text-sm text-gray-500 sm:mt-2 sm:text-base">
+            of target achieved
+          </p>
         </div>
       </div>
 
-      <div className="mt-10 h-5 overflow-hidden rounded-full bg-gray-200">
+      <div className="mt-6 h-3 overflow-hidden rounded-full bg-gray-200 sm:mt-10 sm:h-5">
         <div ref={progressRef} className="h-full rounded-full bg-[#E8B12D]" />
       </div>
 
-      <div className="mt-12 grid grid-cols-2 gap-8 lg:grid-cols-4">
+      <div className="mt-8 grid grid-cols-2 gap-5 sm:mt-12 sm:gap-8 lg:grid-cols-4">
         <div>
-          <p className="text-sm text-gray-500">Raised</p>
+          <p className="text-xs text-gray-500 sm:text-sm">Raised</p>
 
           <h3
             ref={raisedRef}
-            className="mt-2 text-2xl font-bold text-[#184F34]"
+            className="mt-1 text-lg font-bold text-[#184F34] sm:mt-2 sm:text-2xl"
           >
             ₦0
           </h3>
         </div>
 
         <div>
-          <p className="text-sm text-gray-500">Remaining</p>
+          <p className="text-xs text-gray-500 sm:text-sm">Remaining</p>
 
-          <h3 className="mt-2 text-2xl font-bold text-[#184F34]">
+          <h3 className="mt-1 text-lg font-bold text-[#184F34] sm:mt-2 sm:text-2xl">
             {formatCurrency(remaining)}
           </h3>
         </div>
 
         <div>
-          <p className="text-sm text-gray-500">Donors</p>
+          <p className="text-xs text-gray-500 sm:text-sm">Donors</p>
 
-          <h3 className="mt-2 text-2xl font-bold text-[#184F34]">
+          <h3 className="mt-1 text-lg font-bold text-[#184F34] sm:mt-2 sm:text-2xl">
             {fundraising.donors}
           </h3>
         </div>
 
         <div>
-          <p className="text-sm text-gray-500">Progress</p>
+          <p className="text-xs text-gray-500 sm:text-sm">Progress</p>
 
-          <h3 className="mt-2 text-2xl font-bold text-[#E8B12D]">
+          <h3 className="mt-1 text-lg font-bold text-[#E8B12D] sm:mt-2 sm:text-2xl">
             {percentage.toFixed(0)}%
           </h3>
         </div>
       </div>
 
-      <div className="mt-12 flex flex-col gap-4 border-t pt-8 md:flex-row md:items-center md:justify-between">
+      <div className="mt-8 flex flex-col gap-4 border-t pt-6 sm:mt-12 sm:pt-8 md:flex-row md:items-center md:justify-between">
         <div>
-          <h3 className="text-xl font-semibold text-[#184F34]">
+          <h3 className="text-lg font-semibold text-[#184F34] sm:text-xl">
             Every Contribution Counts
           </h3>
 
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-sm text-gray-600 sm:text-base">
             Join fellow sons and daughters of Umuchukwu in bringing this
             vision to life.
           </p>
         </div>
 
-        <button className="rounded-full bg-[#184F34] px-8 py-4 font-medium text-white transition hover:bg-[#103323]">
+        <button className="rounded-full bg-[#184F34] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#103323] sm:px-8 sm:py-4 sm:text-base">
           Donate Today
         </button>
       </div>

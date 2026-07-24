@@ -49,7 +49,7 @@ const Footer = () => {
                   <p className="font-medium">Email</p>
 
                   <p className="text-white/80">
-                    info@umuchukwucommunity.org
+                    info.umuchukwu@gmail.com
                   </p>
                 </div>
               </div>
