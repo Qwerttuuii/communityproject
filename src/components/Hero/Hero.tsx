@@ -67,15 +67,7 @@ const Hero = () => {
           },
           "-=0.3"
         )
-        .from(
-          ".hero-quote",
-          {
-            y: 20,
-            opacity: 0,
-            duration: 0.5,
-          },
-          "-=0.3"
-        )
+       
         .from(
           ".hero-buttons",
           {
@@ -133,27 +125,45 @@ const Hero = () => {
       >
         <p className="hero-location mb-5 flex items-center gap-2 text-[10px] uppercase tracking-[3px] text-[#E8B12D] sm:mb-8 sm:gap-3 sm:text-xs sm:tracking-[5px]">
           <span className="h-px w-6 bg-[#E8B12D] sm:w-8" />
-          Umuagu · Obowo LGA · Imo State
+          Umuagu Village · Obowo LGA · Imo State
         </p>
 
         <h1 className="hero-title max-w-4xl font-serif text-3xl leading-[1.1] text-white sm:text-4xl sm:leading-[1.05] md:text-6xl lg:text-[4.5rem]">
-          Show up for the{" "}
+          The{" "}
           <span className="italic text-[#E8B12D]">Umuchukwu</span>
           <br />
-          Civic Hall construction
+          Community Resource & Youth Development Center.
           <br />
-          project.
+          
         </h1>
 
-        <p className="hero-text mt-5 max-w-xl text-sm leading-7 text-white/90 sm:mt-6 sm:text-base sm:leading-8">
-          Support the Umuchukwu Community Civic Hall project and help create a
-          modern space that will unite the people, preserve our heritage and
-          inspire future generations.
-        </p>
+   <div className="hero-text mt-5 max-w-2xl sm:mt-6">
 
-        <h3 className="hero-quote mt-5 text-base italic text-[#E8B12D] sm:mt-6 sm:text-xl">
-          Together We Build. Together We Belong.
-        </h3>
+  <p className="text-sm leading-7 text-white/90 sm:text-base sm:leading-8">
+    The New Umuchukwu Community Resource & Youth Development Center will serve as a structured environment for:
+  </p>
+
+  <ul className="mt-5 space-y-3 text-sm text-white/90 sm:text-base">
+
+    <li className="flex items-start gap-3">
+      <span className="mt-2 h-2 w-2 rounded-full bg-[#E8B12D] flex-shrink-0"></span>
+      <span>Skill Acquisition and Vocational Training</span>
+    </li>
+
+    <li className="flex items-start gap-3">
+      <span className="mt-2 h-2 w-2 rounded-full bg-[#E8B12D] flex-shrink-0"></span>
+      <span>Incubation Hub for Youth Empowerment</span>
+    </li>
+
+    <li className="flex items-start gap-3">
+      <span className="mt-2 h-2 w-2 rounded-full bg-[#E8B12D] flex-shrink-0"></span>
+      <span>Leadership, Civic Engagement & Community Advocacy</span>
+    </li>
+
+  </ul>
+
+</div>
+     
 
         <div className="hero-buttons mt-6 flex flex-wrap gap-3 sm:mt-8 sm:gap-4">
           <Link
@@ -199,19 +209,23 @@ const Hero = () => {
             <h2 className="mt-1 text-lg sm:mt-2 sm:text-2xl">10,000+</h2>
           </div>
         </div>
+        <div className="mt-8 flex justify-center gap-3 sm:mt-10">
+  {heroImages.map((_, index) => (
+    <button
+      key={index}
+      onClick={() => setCurrentImage(index)}
+      className={`h-2.5 w-2.5 rounded-full transition-all duration-300 sm:h-5 sm:w-3 ${
+        currentImage === index
+          ? "w-8 bg-[#E8B12D] sm:w-10"
+          : "bg-white/50 hover:bg-white"
+      }`}
+    />
+  ))}
+</div>
       </div>
 
-      <div className="absolute bottom-5 left-1/2 z-20 flex -translate-x-1/2 gap-2 sm:bottom-8 sm:gap-3">
-        {heroImages.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrentImage(index)}
-            className={`h-2.5 w-2.5 rounded-full transition-all sm:h-3 sm:w-3 ${
-              currentImage === index ? "w-8 bg-[#E8B12D] sm:w-10" : "bg-white/50"
-            }`}
-          />
-        ))}
-      </div>
+
+    
     </section>
   );
 };

@@ -39,11 +39,11 @@ const Navbar = () => {
 
           <div>
             <h2 className="text-xl font-semibold text-[#184F34]">
-              Umuchukwu
+              Umuchukwu Community
             </h2>
 
             <p className="text-xs uppercase tracking-[4px] text-gray-500">
-              Community • Obowo LGA
+              Umuagu • Obowo LGA
             </p>
           </div>
         </Link>

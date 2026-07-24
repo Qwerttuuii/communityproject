@@ -1,16 +1,17 @@
 export const chairmanData = {
-  title: "A brief word from the",
-  highlight: "Chairman.",
+  title: "Dear citizens and friends of",
+  highlight: "Umuchukwu.",
 
-  quote:
-    "Show up for the Umuchukwu Community Resource & Youth Development Center construction project.",
+  message: `The Umuchukwu Community Resource and Youth Development Center is more than a building. It is an investment in the future of our youth and people.
 
-  message:
-    "Support the Umuchukwu Community Resource & Youth Development Center project and help create a modern space that will unite the people, preserve their heritage and inspire future generations.",
+I invite every son, daughter, friend, and partner of Umuchukwu to join us in making this vision a reality.
 
-  signature:
-    "Together We Build. Together We Belong.",
+Your generous donation will help create opportunities for our youth, strengthen our community, and leave a lasting legacy for generations to come.
 
-  designation: "Chairman",
-  committee: "Community Committee",
+Thank you.`,
+
+  signature: "Support us today and let your generous contribution count.",
+
+  designation: "Executive Chairman",
+  committee: "Mr. Chris Nwayo",
 };

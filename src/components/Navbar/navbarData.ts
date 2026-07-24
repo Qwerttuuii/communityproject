@@ -5,7 +5,7 @@ export const navLinks = [
   },
 
   {
-    title: "How to Support",
+    title: "Support",
     href: "/support",
   },
 

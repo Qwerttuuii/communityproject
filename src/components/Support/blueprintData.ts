@@ -1,38 +1,27 @@
-import { Building2, Briefcase, Users } from "lucide-react";
-
 export const blueprintData = {
   subtitle: "Blueprint",
   title: "Architectural highlights.",
   description:
-    "What we're building, room by room — designed by community-appointed architects for long-term use.",
+    "What we're building, stage by stage designed by the appointed architects for long term use.",
 };
 
-export const blueprintElements = [
+import stage1 from "../../assets/images/blueprint/stage1.avif";
+
+
+export const progressSlides = [
   {
-    icon: Building2,
-    label: "Element 01",
-    title: "Main Auditorium",
-    description:
-      "Capacity for community-wide gatherings, festivals and cultural performances under one roof.",
-    stat: "600+ seats",
-    highlighted: false,
+    image: stage1,
+    stage: "Stage One",
+    label: "Base Level",
   },
   {
-    icon: Briefcase,
-    label: "Element 02",
-    title: "Administrative Offices",
-    description:
-      "Dedicated rooms for community leadership, steering committees and record-keeping.",
-    stat: "6 offices",
-    highlighted: true,
+    image: null,
+    stage: "Stage Two",
+    label: "Structural Framework",
   },
   {
-    icon: Users,
-    label: "Element 03",
-    title: "Conference & Board Rooms",
-    description:
-      "Intimate spaces reserved for smaller stakeholder meetings and local deliberations.",
-    stat: "3 rooms",
-    highlighted: false,
+    image: null,
+    stage: "Stage Three",
+    label: "Roofing & Finishing",
   },
 ];

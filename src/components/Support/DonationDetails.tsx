@@ -34,9 +34,7 @@ const DonationDetails = () => {
           {donationData.titleEnd}
         </h2>
 
-        <p className="mt-5 max-w-2xl text-sm leading-7 text-gray-600 sm:mt-6 sm:text-base sm:leading-8">
-          {donationData.description}
-        </p>
+      
 
         {/* Donation card */}
 

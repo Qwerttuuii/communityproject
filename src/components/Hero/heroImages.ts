@@ -1,13 +1,15 @@
-import hero1 from "../../assets/images/hero/hero1.jpg";
-import hero2 from "../../assets/images/hero/hero2.jpg";
-import hero3 from "../../assets/images/hero/hero3.jpg";
-import hero4 from "../../assets/images/hero/hero4.jpg";
-import hero5 from "../../assets/images/hero/hero5.jpg";
+import new01 from "../../assets/images/hero/new01.avif";
+import new02 from "../../assets/images/hero/new02.avif";
+import new03 from "../../assets/images/hero/new03.avif";
+import new04 from "../../assets/images/hero/new04.avif";
+import new05 from "../../assets/images/hero/new05.avif";
+import new06 from "../../assets/images/hero/new06.avif";
 
 export const heroImages = [
-  hero1,
-  hero2,
-  hero3,
-  hero4,
-  hero5,
+  new01,
+  new02,
+  new03,
+  new04,
+  new05,
+  new06,
 ];

@@ -32,11 +32,12 @@ const Objectives = () => {
       className="bg-[#FAF8F4] py-28"
     >
       <div className="mx-auto max-w-7xl px-6">
-        <p className="mb-4 text-center text-sm uppercase tracking-[6px] text-[#E8B12D]">
-          Our Mission
-        </p>
+          <h2 className="mx-auto max-w-3xl text-center text-3xl font-serif text-[#184F34]">
+          Support the Umuchukwu Community Civic Hall project and help create a modern space that will unite the people, preserve their heritage, and inspire future generations.
+        </h2>
+        
 
-        <h2 className="mx-auto max-w-3xl text-center text-5xl font-serif text-[#184F34]">
+        <h2 className="mx-auto mt-28 max-w-3xl text-center text-6xl font-serif text-[#E8B12D]">
           Core Objectives
         </h2>
 

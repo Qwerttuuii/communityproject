@@ -11,8 +11,8 @@ const Footer = () => {
               Stay Connected
             </p>
 
-            <h2 className="mt-4 text-4xl font-serif leading-tight md:text-5xl">
-              Be Part of the Umuchukwu Civic Hall Journey
+            <h2 className="mt-4 text-4xl font-serif leading-tight md:text-3xl">
+              Be Part of the Umuchukwu Community Resource and Youth Development Center Journey.
             </h2>
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-white/80">
@@ -40,15 +40,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <Phone className="mt-1 text-[#E8B12D]" size={20} />
-
-                <div>
-                  <p className="font-medium">Phone</p>
-
-                  <p className="text-white/80">+234 800 000 0000</p>
-                </div>
-              </div>
+           
 
               <div className="flex items-start gap-4">
                 <Mail className="mt-1 text-[#E8B12D]" size={20} />

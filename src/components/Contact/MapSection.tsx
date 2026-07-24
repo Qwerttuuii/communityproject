@@ -1,7 +1,8 @@
 import {
   MapPin,
-  Phone,
+  
   Navigation,
+  Mail,
 } from "lucide-react";
 
 const MapSection = () => {
@@ -89,9 +90,9 @@ const MapSection = () => {
                   href="tel:+234000000000"
                   className="flex items-center justify-center gap-3 rounded-full border border-[#184F34] px-6 py-4 font-medium text-[#184F34] transition hover:bg-[#184F34] hover:text-white"
                 >
-                  <Phone size={18} />
+                  <Mail size={18} />
 
-                  Call Committee
+                  Message Committee
 
                 </a>
 

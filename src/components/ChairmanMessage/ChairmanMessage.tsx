@@ -49,7 +49,6 @@ const ChairmanMessage = () => {
 
         <div className="chairman-image relative">
 
-          {/* Replace this with your image later */}
 
          <img
         src={chairmanImage}
@@ -87,21 +86,16 @@ const ChairmanMessage = () => {
 
           </div>
 
-          <h2 className="font-serif text-5xl leading-tight text-[#184F34]">
-
-            {chairmanData.title}
-
-            <span className="block italic text-[#E8B12D]">
+          <h2 className="font-serif text-3xl leading-tight text-[#184F34] sm:text-4xl">
+            {chairmanData.title}{" "}
+            <span className="italic text-[#E8B12D]">
               {chairmanData.highlight}
             </span>
-
           </h2>
 
-          <blockquote className="mt-10 border-l-2 border-[#E8B12D] pl-6 text-3xl italic leading-relaxed text-[#184F34]">
-            "{chairmanData.quote}"
-          </blockquote>
+          
 
-          <p className="mt-10 text-lg leading-9 text-gray-600">
+          <p className="mt-10 text-base leading-7 text-gray-600">
             {chairmanData.message}
           </p>
 

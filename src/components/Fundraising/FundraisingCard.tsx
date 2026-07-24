@@ -110,7 +110,7 @@ const FundraisingCard = () => {
           </p>
 
           <h2 className="mt-3 text-3xl font-semibold text-[#184F34]">
-            Help Build Our Civic Hall
+            Help Build Our Modern Community Resource And Youth Development center
           </h2>
         </div>
 
