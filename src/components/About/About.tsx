@@ -37,15 +37,6 @@ const About = () => {
               {aboutData.description1}
             </p>
 
-            <p className="mt-6 leading-8 text-white/90">
-              {aboutData.description2}
-            </p>
-            <p className="mt-6 leading-8 text-white/90">
-              {aboutData.description3}
-            </p>
-            <p className="mt-6 leading-8 text-white/90">
-              {aboutData.description4}
-            </p>
 
           
 
