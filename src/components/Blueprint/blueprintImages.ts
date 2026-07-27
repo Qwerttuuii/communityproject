@@ -1,6 +1,6 @@
-import exteriorview1 from "../../assets/images/blueprint/exteriorview1.jpeg";
-import exteriorview2 from "../../assets/images/blueprint/exteriorview2.jpeg";
-import groundfloorplan from "../../assets/images/blueprint/groundfloorplan.jpeg";
+import hall1 from "../../assets/images/blueprint/hall1.avif";
+import hall2 from "../../assets/images/blueprint/hall2.avif";
+import hall3 from "../../assets/images/blueprint/HALL3.avif";
 
 export interface BlueprintImage {
   image: string;
@@ -9,15 +9,15 @@ export interface BlueprintImage {
 
 export const blueprintImages: BlueprintImage[] = [
   {
-    image: exteriorview1,
-    title: "Main Building Concept",
+    image: hall1,
+    title: "First view plan",
   },
   {
-    image: exteriorview2,
-    title: "Youth Center Layout",
+    image: hall2,
+    title: "Ground view plan",
   },
   {
-    image: groundfloorplan,
-    title: "Ground Floor Plan",
+    image: hall3,
+    title: "Second view Plan",
   },
 ];
