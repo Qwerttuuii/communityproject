@@ -1,6 +1,6 @@
 import hall1 from "../../assets/images/blueprint/hall1.avif";
 import hall2 from "../../assets/images/blueprint/hall2.avif";
-import hall3 from "../../assets/images/blueprint/HALL3.avif";
+import hall3 from "../../assets/images/blueprint/hall3.avif";
 
 export interface BlueprintImage {
   image: string;
