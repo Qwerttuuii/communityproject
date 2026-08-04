@@ -168,7 +168,7 @@ const Hero = () => {
         <div className="hero-buttons mt-6 flex flex-wrap gap-3 sm:mt-8 sm:gap-4">
           <Link
             to="/support#donation"
-            className="flex items-center gap-2 rounded-full bg-[#E8B12D] px-5 py-2.5 text-xs font-semibold transition hover:scale-105 sm:px-6 sm:py-3 sm:text-sm"
+            className="flex items-center gap-2 rounded-full bg-[#E8B12D] px-5 py-2.5 text-xs font-bold transition hover:scale-105 sm:px-6 sm:py-3 sm:text-sm"
           >
             How to Donate
             <span aria-hidden="true">→</span>
@@ -201,13 +201,7 @@ const Hero = () => {
             <h2 className="mt-1 text-lg sm:mt-2 sm:text-2xl">2027</h2>
           </div>
 
-          <div>
-            <p className="text-[10px] uppercase tracking-[2px] text-white/60 sm:text-xs sm:tracking-[3px]">
-              Sons &amp; Daughters
-            </p>
-
-            <h2 className="mt-1 text-lg sm:mt-2 sm:text-2xl">10,000+</h2>
-          </div>
+      
         </div>
         <div className="mt-8 flex justify-center gap-3 sm:mt-10">
   {heroImages.map((_, index) => (

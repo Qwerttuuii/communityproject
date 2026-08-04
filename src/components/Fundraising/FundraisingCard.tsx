@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { fundraising } from "./fundraisingData";
+import { Link } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -101,7 +102,7 @@ const FundraisingCard = () => {
   return (
     <div
       ref={cardRef}
-      className="rounded-[24px] bg-white p-5 shadow-[0_30px_70px_rgba(0,0,0,0.12)] sm:rounded-[36px] sm:p-8 md:p-12"
+      className="rounded-3xl bg-white p-5 shadow-[0_30px_70px_rgba(0,0,0,0.12)] sm:rounded-[36px] sm:p-8 md:p-12"
     >
       <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between lg:gap-8">
         <div>
@@ -181,9 +182,12 @@ const FundraisingCard = () => {
           </p>
         </div>
 
-        <button className="rounded-full bg-[#184F34] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#103323] sm:px-8 sm:py-4 sm:text-base">
-          Donate Today
-        </button>
+<Link
+  to="/support#donation"
+  className="rounded-full bg-[#184F34] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#103323] sm:px-8 sm:py-4 sm:text-base"
+>
+  Donate Today
+</Link>
       </div>
     </div>
   );

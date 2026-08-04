@@ -3,7 +3,8 @@ export const donationData = {
   title: "Support the",
   titleHighlight: "Umuchukwu",
   titleEnd: "legacy.",
-
+  description:
+    "Every brick counts. Your generous contributions directly fund material acquisition and labor for the Town Hall construction. Below are our official, verified banking details.",
 };
 
 export const bankDetails = {

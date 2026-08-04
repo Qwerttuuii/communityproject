@@ -45,13 +45,12 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <Mail className="mt-1 text-[#E8B12D]" size={20} />
 
-                <div>
-                  <p className="font-medium">Email</p>
-
-                  <p className="text-white/80">
-                    info.umuchukwu@gmail.com
-                  </p>
-                </div>
+                <a
+             href="mailto:info.umuchukwu@gmail.com?subject=Support%20for%20Umuchukwu%20Community%20Project"
+            className="text-white/80 transition hover:text-[#E8B12D] hover:underline"
+>
+            info.umuchukwu@gmail.com
+</a>
               </div>
             </div>
           </div>

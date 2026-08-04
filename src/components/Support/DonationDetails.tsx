@@ -11,7 +11,7 @@ const DonationDetails = () => {
       setCopiedField(label);
       setTimeout(() => setCopiedField(null), 2000);
     } catch {
-      
+      // Clipboard write failed silently; no fallback needed for this use case
     }
   };
 
@@ -34,11 +34,13 @@ const DonationDetails = () => {
           {donationData.titleEnd}
         </h2>
 
-      
+        <p className="mt-5 max-w-2xl text-sm leading-7 text-gray-600 sm:mt-6 sm:text-base sm:leading-8">
+          {donationData.description}
+        </p>
 
         {/* Donation card */}
 
-        <div className="mt-10 rounded-[28px] bg-linear-to-br from-[#184F34] to-[#0F3322] p-6 sm:mt-12 sm:p-10">
+        <div className="mt-10 rounded-[28px] bg-gradient-to-br from-[#184F34] to-[#0F3322] p-6 sm:mt-12 sm:p-10">
           <div className="flex flex-wrap items-start justify-between gap-3">
             <div>
               <p className="text-[11px] uppercase tracking-[3px] text-[#E8B12D] sm:text-xs sm:tracking-[4px]">
@@ -67,7 +69,7 @@ const DonationDetails = () => {
                     {field.label}
                   </p>
 
-                  <p className="mt-1 text-base font-serif text-white sm:text-lg">
+                  <p className="mt-1 text-lg font-serif font-bold tracking-wide text-white sm:text-xl">
                     {field.value}
                   </p>
                 </div>
