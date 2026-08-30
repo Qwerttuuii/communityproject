@@ -22,7 +22,7 @@ const MapSection = () => {
 
           <p className=" mt-6 max-w-2xl text-left leading-8 text-gray-600 ">
             You're welcome to visit the proposed The Umuchukwu
-Community Resource & Youth Development Center Project site,
+Village Resource & Youth Development Center Project site,
             inspect the work in progress and meet members of the committee.
           </p>
 

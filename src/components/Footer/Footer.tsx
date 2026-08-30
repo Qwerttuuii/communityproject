@@ -12,7 +12,7 @@ const Footer = () => {
             </p>
 
             <h2 className="mt-4 text-4xl font-serif leading-tight md:text-3xl">
-              Be Part of the Umuchukwu Community Resource and Youth Development Center Journey.
+              Be Part of the Umuchukwu Village Resource and Youth Development Center Journey.
             </h2>
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-white/80">
@@ -35,7 +35,7 @@ const Footer = () => {
                   <p className="font-medium">Address</p>
 
                   <p className="text-white/80">
-                    Umuchukwu Community, Obowo LGA, Imo State, Nigeria
+                    Umuchukwu Village, Obowo LGA, Imo State, Nigeria
                   </p>
                 </div>
               </div>
@@ -61,7 +61,7 @@ const Footer = () => {
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-6 text-center text-sm text-white/70 md:flex-row">
           <p>
-            © {new Date().getFullYear()} Umuchukwu Community. All rights
+            © {new Date().getFullYear()} Umuchukwu Village. All rights
             reserved.
           </p>
 

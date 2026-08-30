@@ -9,7 +9,7 @@ export const donationData = {
 
 export const bankDetails = {
   label: "Official Donation Account",
-  fundName: "Umuchukwu Community Building Fund",
+  fundName: "Umuchukwu Village Building Fund",
   verifiedText: "Verified by Community Executive",
   fields: [
     { label: "Bank Name", value: "Zenith Bank" },

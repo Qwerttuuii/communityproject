@@ -43,7 +43,7 @@ const Navbar = () => {
             </h2>
 
             <p className="text-xs uppercase tracking-[4px] text-gray-500">
-              Umuagu • Obowo LGA
+              Umuagu Autonomous Community • Obowo LGA
             </p>
           </div>
         </Link>

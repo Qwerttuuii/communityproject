@@ -125,14 +125,14 @@ const Hero = () => {
       >
         <p className="hero-location mb-5 flex items-center gap-2 text-[10px] uppercase tracking-[3px] text-[#E8B12D] sm:mb-8 sm:gap-3 sm:text-xs sm:tracking-[5px]">
           <span className="h-px w-6 bg-[#E8B12D] sm:w-8" />
-          Umuagu Village · Obowo LGA · Imo State
+          Umuagu Autonomous Community · Obowo LGA · Imo State
         </p>
 
         <h1 className="hero-title max-w-4xl font-serif text-3xl leading-[1.1] text-white sm:text-4xl sm:leading-[1.05] md:text-6xl lg:text-[4.5rem]">
           The{" "}
           <span className="italic text-[#E8B12D]">Umuchukwu</span>
           <br />
-          Community Resource & Youth Development Center.
+          Village Resource & Youth Development Center.
           <br />
           
         </h1>
@@ -140,7 +140,7 @@ const Hero = () => {
    <div className="hero-text mt-5 max-w-2xl sm:mt-6">
 
   <p className="text-sm leading-7 text-white/90 sm:text-base sm:leading-8">
-    The New Umuchukwu Community Resource & Youth Development Center will serve as a structured environment for:
+    The New Umuchukwu Village Resource & Youth Development Center will serve as a structured environment for:
   </p>
 
   <ul className="mt-5 space-y-3 text-sm text-white/90 sm:text-base">
