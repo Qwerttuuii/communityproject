@@ -42,7 +42,7 @@ const Navbar = () => {
               Umuchukwu Community
             </h2>
 
-            <p className="text-xs uppercase tracking-[4px] text-gray-500">
+            <p className="text-xs uppercase tracking-[1px] text-gray-500">
               Umuagu Autonomous Community • Obowo LGA
             </p>
           </div>
