@@ -46,10 +46,10 @@ const Footer = () => {
                 <Mail className="mt-1 text-[#E8B12D]" size={20} />
 
                 <a
-             href="mailto:info.umuchukwu@gmail.com?subject=Support%20for%20Umuchukwu%20Community%20Project"
+             href="mailto:okonkwoebuka988@gmail.com?subject=Support%20for%20Umuchukwu%20Community%20Project"
             className="text-white/80 transition hover:text-[#E8B12D] hover:underline"
 >
-            info.umuchukwu@gmail.com
+            okonkwoebuka988@gmail.com
 </a>
               </div>
             </div>

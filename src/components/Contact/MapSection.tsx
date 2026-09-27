@@ -88,7 +88,7 @@ Village Resource & Youth Development Center Project site,
                 </a>
 
                 <a
-                  href="mailto:info.umuchukwu@gmail.com"
+                  href="mailto:okonkwoebuka988@gmail.com"
                   className="flex items-center justify-center gap-3 rounded-full border border-[#184F34] px-6 py-4 font-medium text-[#184F34] transition hover:bg-[#184F34] hover:text-white"
                 >
                   <Mail size={18} />
