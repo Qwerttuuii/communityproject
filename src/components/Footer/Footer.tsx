@@ -49,7 +49,7 @@ const Footer = () => {
              href="mailto:okonkwoebuka988@gmail.com?subject=Support%20for%20Umuchukwu%20Community%20Project"
             className="text-white/80 transition hover:text-[#E8B12D] hover:underline"
 >
-            okonkwoebuka988@gmail.com
+            umuchukwu34@gmail.com
 </a>
               </div>
             </div>
