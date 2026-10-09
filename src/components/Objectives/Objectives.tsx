@@ -33,7 +33,11 @@ const Objectives = () => {
     >
       <div className="mx-auto max-w-7xl px-6">
           <h2 className="mx-auto max-w-3xl text-center text-3xl font-serif text-[#184F34]">
-          Support the Umuchukwu Village Civic Hall project and help create a modern space that will unite the people, preserve their heritage, and inspire future generations.
+          Support the Umuchukwu Village Resource & Youth Center 
+project and help create a modern space for
+Skill Acquisition and Vocational Training,
+Youth Empowerment and Civic Engagement & Community Advocacy.
+A community space that will unite the people, preserve their heritage, and inspire future generations.
         </h2>
         
 

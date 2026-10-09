@@ -1,5 +1,5 @@
 export const fundraising = {
   target: 22000000,
-  raised: 0,
-  donors: 0,
+  raised: 680000,
+  donors: 5,
 };

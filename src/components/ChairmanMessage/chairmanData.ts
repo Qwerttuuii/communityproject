@@ -12,6 +12,6 @@ Thank you.`,
 
   signature: "Support us today and let your generous contribution count.",
 
-  designation: "Executive Chairman",
+  designation: "Chairman",
   committee: "Mr. Chris Nwayo",
 };
