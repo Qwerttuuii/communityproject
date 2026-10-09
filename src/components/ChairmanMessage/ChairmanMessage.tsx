@@ -60,13 +60,13 @@ const ChairmanMessage = () => {
 
           <div className="absolute bottom-6 left-6 rounded-3xl bg-[#184F34] px-6 py-5 shadow-xl">
 
-            <p className="text-xs uppercase tracking-[4px] text-[#E8B12D]">
-              {chairmanData.designation}
-            </p>
-
-            <h3 className="mt-2 text-2xl text-white">
+            <h3 className="text-2xl text-white">
               {chairmanData.committee}
             </h3>
+
+            <p className="mt-2 text-xs uppercase tracking-[4px] text-[#E8B12D]">
+              {chairmanData.designation}
+            </p>
 
           </div>
 

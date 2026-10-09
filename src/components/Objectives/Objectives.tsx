@@ -45,11 +45,7 @@ A community space that will unite the people, preserve their heritage, and inspi
           Core Objectives
         </h2>
 
-        <p className="mx-auto mt-6 max-w-2xl text-center leading-8 text-gray-600">
-          Every contribution supports a transparent community effort to build
-          a civic hall that will benefit present and future generations of
-          Umuchukwu.
-        </p>
+      
 
         <div className="mt-20 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {objectives.map((objective) => (
